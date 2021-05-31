@@ -5,8 +5,8 @@
   "license": "MIT",
   "version": "1.1.2",
   "authors": [{
-    "name": "Gregor Staab",
-    "email": "webmaster@webgestaltung.net"
+    "name": "GaboCapo forked from Gregor Staab",
+    "email": "gabcapdev@gmail.com"
   }],
   "autoload": {
     "psr-4": {
@@ -14,12 +14,12 @@
     }
   },
   "require": {
-    "shopware/core": ">=6.1",
-    "shopware/storefront": ">=6.1"
-  },
+    "shopware/core": "~6.4",
+    "shopware/administration": "~6.4"
+   },
   "extra": {
     "shopware-plugin-class": "gstaSlimFooter\\gstaSlimFooter",
-    "copyright": "(c) by Gregor Staab",
+    "copyright": "GaboCapo forked from Gregor Staab",
     "plugin-icon": "src/Resources/config/plugin.png",
     "label": {
       "de-DE": "Minimale Fussleiste",
@@ -30,12 +30,12 @@
       "en-GB": "Minimal Footer"
     },
     "manufacturerLink": {
-      "de-DE": "https://webgestaltung.net",
-      "en-GB": "https://webgestaltung.net"
+      "de-DE": "https://docs.shopware.com/",
+      "en-GB": "https://docs.shopware.com/"
     },
     "supportLink": {
-      "de-DE": "https://webgestaltung.net/beratung-webdesign-und-ecommerce-frankfurt-main/",
-      "en-GB": "https://webgestaltung.net/beratung-webdesign-und-ecommerce-frankfurt-main/"
+      "de-DE": "https://docs.shopware.com/",
+      "en-GB": "https://docs.shopware.com/"
     }
   }
 }
